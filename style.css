@@ -4,6 +4,8 @@ body{
 }
 header{
     text-align: center;
+    font: normal 20pt;
+    font-family: monospace;
 }
 section{
     text-align: center;
@@ -18,4 +20,16 @@ section{
 footer{
     text-align: center;
     font-style: italic;
+}
+#res{
+    margin: auto;
+    font-family: monospace;
+    text-align: center;
+}
+#alt{
+    border-radius: 10px;
+    background-color:rgb(83, 83, 99);
+    opacity: 100%;
+    color: rgb(255, 255, 255);
+    font: bold arial;
 }
