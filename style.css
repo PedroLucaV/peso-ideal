@@ -1,0 +1,21 @@
+body{
+    background-color: aquamarine;
+    font: normal 15pt Arial;
+}
+header{
+    text-align: center;
+}
+section{
+    text-align: center;
+    margin: auto;
+    background-color: aliceblue;
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    height: auto;
+    padding: 10px;
+}
+footer{
+    text-align: center;
+    font-style: italic;
+}
