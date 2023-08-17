@@ -7,16 +7,17 @@ function calc(){
     }else{
         let fsex = document.getElementsByName('sex')
         let alt = Number(alt1.value)
+        let peso = 0
         let genero = ''
         if (fsex[0].checked) {
             genero = 'Homem'
-            alt = 22 * (Math.pow(alt, 2))
-            alt = alt.toFixed(2)
+            peso = 22 * (Math.pow(alt, 2))
+            peso = peso.toFixed(2)
         }else if (fsex[1].checked){
             genero = 'Mulher'
-            alt = 21 * (Math.pow(alt, 2))
-            alt = alt.toFixed(2)
+            peso = 21 * (Math.pow(alt, 2))
+            peso = peso.toFixed(2)
         }
-        msg.innerHTML = `Seu peso ideal sendo ${genero} com essa altura é de: ${alt}`
+        msg.innerHTML = `Seu peso ideal sendo ${genero} com altura de ${alt.toFixed(2)}m é de: ${peso}kg!`
     }
 }
