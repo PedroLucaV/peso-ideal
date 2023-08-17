@@ -18,6 +18,6 @@ function calc(){
             peso = 21 * (Math.pow(alt, 2))
             peso = peso.toFixed(2)
         }
-        msg.innerHTML = `Seu peso ideal sendo ${genero} com altura de ${alt.toFixed(2)}M é de: ${peso}kg!`
+        msg.innerHTML = `Seu peso ideal sendo ${genero} com altura de ${alt.toFixed(2)}m é de: ${peso}kg!`
     }
 }
