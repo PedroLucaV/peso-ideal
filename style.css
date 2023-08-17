@@ -33,3 +33,9 @@ footer{
     color: rgb(255, 255, 255);
     font: bold arial;
 }
+#calc{
+    border-radius: 10px;
+    background-color:rgb(83, 83, 99);
+    color: white;
+    font-weight: bold;
+}
