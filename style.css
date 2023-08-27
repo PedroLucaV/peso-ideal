@@ -39,3 +39,6 @@ footer{
     color: white;
     font-weight: bold;
 }
+#calc:hover{
+    background-color: red;
+}
